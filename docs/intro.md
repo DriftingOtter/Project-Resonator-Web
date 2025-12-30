@@ -162,7 +162,6 @@ Explore the wiki by topic:
 ### 📖 Project Information
 
 * **[Tools & Software](/docs/Tools-&-Software)** — Required software, recommended tools, and setup guides.
-* **[Project Goals & Philosophy](/docs/Project-Goals-Philosophy)** — The vision and principles behind Project Resonator.
 * **[Project Licensing and Usage](/docs/Project-Licensing-and-Usage)** — Open-source licensing under CERN-OHL-W.
 * **[FAQ & Troubleshooting](/docs/FAQ-Troubleshooting)** — Common questions and solutions.
 * **[Contribution](/docs/Contribution)** — How to contribute to the project and improve the knowledge base.
