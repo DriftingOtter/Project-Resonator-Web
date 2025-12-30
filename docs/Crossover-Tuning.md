@@ -46,7 +46,7 @@ In crossover terms, capacitors are used to create **high-pass filters** - they "
 
 **How it works**: Capacitors have a property called capacitive reactance (Xc), which is essentially their "resistance" to AC signals. The key is that this reactance is inversely proportional to frequency: **Xc = 1 / (2πfC)**. As frequency increases, the denominator gets larger, so the reactance gets smaller - meaning high frequencies face less opposition and pass through easily, while low frequencies face high opposition and get blocked.
 
-> **Additional Info**: In terms of wave behavior, a capacitor stores energy in an electric field between its plates. For low-frequency waves (slow oscillations), the capacitor has time to fully charge and discharge, effectively blocking the signal. For high-frequency waves (fast oscillations), the capacitor can't keep up and acts almost like a wire, letting the signal pass. For a deeper dive into capacitive reactance and AC circuit behavior, see ![Capacitor - Wikipedia](https://en.wikipedia.org/wiki/Capacitor#AC_circuits).
+> **Additional Info**: In terms of wave behavior, a capacitor stores energy in an electric field between its plates. For low-frequency waves (slow oscillations), the capacitor has time to fully charge and discharge, effectively blocking the signal. For high-frequency waves (fast oscillations), the capacitor can't keep up and acts almost like a wire, letting the signal pass. For a deeper dive into capacitive reactance and AC circuit behavior, see [[[Capacitor - Wikipedia](https://en.wikipedia.org/wiki/Capacitor#AC_circuits)](https://en.wikipedia.org/wiki/Capacitor#AC_circuits)](https://en.wikipedia.org/wiki/Capacitor#AC_circuits).
 
 ### Inductors (Low-Pass Filters)
 
@@ -58,7 +58,7 @@ Inductors create **low-pass filters** - they "pass" the lows and block the highs
 
 **How it works**: Inductors have inductive reactance (XL), which increases with frequency: **XL = 2πfL**. As frequency goes up, the reactance gets higher - meaning high frequencies face more opposition and get blocked, while low frequencies face minimal opposition and pass through.
 
-> **Additional Info**: An inductor stores energy in a magnetic field created by current flowing through its coil. For high-frequency waves, the rapidly changing current creates a strong back-EMF (electromotive force) that opposes the change, blocking the signal. For low-frequency waves, the changes are slow enough that the inductor doesn't generate much opposition. For more on inductive behavior, see ![Inductor - Wikipedia](https://en.wikipedia.org/wiki/Inductor#Reactance).
+> **Additional Info**: An inductor stores energy in a magnetic field created by current flowing through its coil. For high-frequency waves, the rapidly changing current creates a strong back-EMF (electromotive force) that opposes the change, blocking the signal. For low-frequency waves, the changes are slow enough that the inductor doesn't generate much opposition. For more on inductive behavior, see [[[Inductor - Wikipedia](https://en.wikipedia.org/wiki/Inductor#Reactance)](https://en.wikipedia.org/wiki/Inductor#Reactance)](https://en.wikipedia.org/wiki/Inductor#Reactance).
 
 **Important note**: Inductors are chunky. Like, physically large and heavy - not great for IEMs where space is at a premium. For this reason, many IEM builders avoid inductors entirely and rely on capacitors and resistors to do the heavy lifting. We'll talk about inductor-less designs later.
 
@@ -84,7 +84,8 @@ When you're designing a crossover, one of the key decisions is how aggressively 
 
 A first-order filter uses just one component: a single capacitor for a high-pass or a single inductor for a low-pass. It has a gentle slope of 6 dB per octave, meaning that for every doubling of frequency (one octave), the volume drops by 6 dB.
 
-> **Additional Info**: Every filter introduces a phase shift - a time delay between the input signal and output signal. First-order filters introduce a maximum of 90° phase shift at the crossover frequency, which is relatively minimal. Higher-order filters introduce more phase shift (180° for second-order, 270° for third-order, etc.). When two drivers are producing the same frequency but out of phase, they can partially or completely cancel each other out, creating notches in the frequency response. This is why simpler crossovers often sound more "coherent" - less phase weirdness. For more on phase in AC circuits, see ![Phase (waves) - Wikipedia](https://en.wikipedia.org/wiki/Phase_(waves)).
+> **Additional Info**: Every filter introduces a phase shift - a time delay between the input signal and output signal. First-order filters introduce a maximum of 90° phase shift at the crossover frequency, which is relatively minimal. Higher-order filters introduce more phase shift (180° for second-order, 270° for third-order, etc.). When two drivers are producing the same frequency but out of phase, they can partially or completely cancel each other out, creating notches in the frequency response. This is why simpler crossovers often sound more "coherent" - less phase weirdness. For more on phase in AC circuits, see [[[Phase (waves) - Wikipedia](https://en.wikipedia.org/wiki/Phase_(waves))](https://en.wikipedia.org/wiki/Phase_(waves))](https://en.wikipedia.org/wiki/Phase_(waves)).
+
 **Pros**: Simple, minimal phase shift, natural sound.
 **Cons**: Lots of frequency overlap between drivers, which can cause phase issues if not carefully managed.
 
@@ -140,7 +141,7 @@ This is where those .zma files mentioned in the Driver Selection guide come in h
 
 ## Common Crossover Topologies
 
-![Example of a passive crossover network schematic](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Passive_Crossover.svg/960px-Passive_Crossover.svg.png)
+![Example of a passive crossover network schematic](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Passive_Crossover.svg/330px-Passive_Crossover.svg.png)
 
 Now that we've covered the basics, let's look at some common crossover designs you'll encounter in IEM building.
 
@@ -160,7 +161,7 @@ A capacitor placed in parallel with a driver (one leg to the signal, one leg to 
 
 Sometimes called an impedance compensation network, this is a resistor and capacitor in series, placed in parallel with the driver. It's used to flatten out impedance peaks and smooth the driver's response.
 
-> **Additional Info**: Every driver has a natural resonant frequency where the mechanical system (diaphragm, voice coil, suspension) wants to oscillate on its own. At this frequency, the driver's impedance spikes dramatically because the mechanical energy and electrical energy are fighting each other. This creates a peak in the frequency response - often unpleasant and sharp-sounding. A Zobel network provides a parallel path for these resonant frequencies to dissipate as heat, effectively damping the resonance. For more on mechanical resonance in drivers, see ![Resonance - Wikipedia](https://en.wikipedia.org/wiki/Resonance).
+> **Additional Info**: Every driver has a natural resonant frequency where the mechanical system (diaphragm, voice coil, suspension) wants to oscillate on its own. At this frequency, the driver's impedance spikes dramatically because the mechanical energy and electrical energy are fighting each other. This creates a peak in the frequency response - often unpleasant and sharp-sounding. A Zobel network provides a parallel path for these resonant frequencies to dissipate as heat, effectively damping the resonance. For more on mechanical resonance in drivers, see [[[Resonance - Wikipedia](https://en.wikipedia.org/wiki/Resonance)](https://en.wikipedia.org/wiki/Resonance)](https://en.wikipedia.org/wiki/Resonance).
 
 **When to use**: When a driver has a nasty resonance peak that's causing problems, or when you need to stabilize the impedance for the crossover to work properly.
 
