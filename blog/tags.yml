@@ -1,0 +1,24 @@
+development:
+  label: Development
+  permalink: /development
+  description: Posts about project development and progress
+
+update:
+  label: Updates
+  permalink: /update
+  description: Project updates and announcements
+
+hardware:
+  label: Hardware
+  permalink: /hardware
+  description: Posts about IEM hardware design, PCBs, and components
+
+software:
+  label: Software
+  permalink: /software
+  description: Posts about software tools and development
+
+drivers:
+  label: Drivers
+  permalink: /drivers
+  description: Posts about IEM driver selection and configuration
