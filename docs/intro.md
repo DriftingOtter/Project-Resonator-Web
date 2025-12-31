@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import Link from '@docusaurus/Link';
+
 # Welcome to Project Resonator
 
 <div className="text--center margin-bottom--lg">
@@ -108,7 +110,7 @@ If you are new here, we recommend following the guides in this order:
         <p>Set up your workspace and software.</p>
       </div>
       <div className="card__footer">
-        <a href="/docs/Tools-&-Software" className="button button--primary button--block">Tools & Software</a>
+        <Link to="/docs/Tools-&-Software" className="button button--primary button--block">Tools & Software</Link>
       </div>
     </div>
   </div>
@@ -121,7 +123,7 @@ If you are new here, we recommend following the guides in this order:
         <p>Learn what drivers to buy and how crossovers work.</p>
       </div>
       <div className="card__footer">
-        <a href="/docs/Driver-Selection" className="button button--primary button--block">Driver Selection</a>
+        <Link to="/docs/Driver-Selection" className="button button--primary button--block">Driver Selection</Link>
       </div>
     </div>
   </div>
@@ -134,7 +136,7 @@ If you are new here, we recommend following the guides in this order:
         <p>Design the physical shell and manufacture it.</p>
       </div>
       <div className="card__footer">
-        <a href="/docs/Shell-Design" className="button button--primary button--block">Shell Design</a>
+        <Link to="/docs/Shell-Design" className="button button--primary button--block">Shell Design</Link>
       </div>
     </div>
   </div>
